@@ -1,0 +1,32 @@
+.container {
+    width: 1020px;
+    height: 100vh;
+    background-color: red;
+}
+
+.head {
+    height: 89px;
+    background-color: #2d303a;
+    /*background: url('./assets/images/Header.png');*/
+}
+
+.head_btm {
+    height: 6px;
+    background-color: #323746;
+    margin-bottom: 0; 
+}
+
+.slider {
+    height: 600px;
+    background-color: #f06c64;
+}
+
+.slider_btm {
+    height: 15px;
+    background-color: #ea676b;
+}
+
+.services {
+    height: 495px;
+    background-color: #f2f2f2;
+}
