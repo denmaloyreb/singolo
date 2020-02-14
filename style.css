@@ -7,7 +7,31 @@
 .head {
     height: 89px;
     background-color: #2d303a;
-    /*background: url('./assets/images/Header.png');*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+}
+
+.navbar {
+    font-size: 16px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    margin: 45px 279px 0 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 .head_btm {
