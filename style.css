@@ -46,8 +46,15 @@
 
 
 .navbar ul li:before {
-    content: "       ·        ";
-}
+    content: ".";
+    position: relative;
+    bottom: 3px;
+    left: -13px;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+    color: #494e62;
+    }
 
 .navbar ul {
     display: flex;
