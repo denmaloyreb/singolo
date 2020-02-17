@@ -19,11 +19,12 @@
     /*font-weight: 700;*/
     text-align: left;
     display: flex;
-    margin: 43px 247px 0 71px;
+    margin: 42px 247px 0 41px;
 }
 
 .logo p {
     text-transform: uppercase;
+    font-size: 18pt;
 }
 
 .navbar {
@@ -33,11 +34,19 @@
     font-family: "Lato";
     /*font-weight: 700;*/
     text-align: left;
-    margin: 45px 279px 0 0;
+    margin: 47px 40px 21px -19px;
 }
 
 .navbar ul li {
     text-transform: uppercase;
+    font-size: 9pt;
+    margin-left: 23px;
+    
+}
+
+
+.navbar ul li:before {
+    content: "       ·        ";
 }
 
 .navbar ul {
@@ -66,6 +75,68 @@
     margin: 53px 0px 2px 112px;
 }
 
+.phone1btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 462px 0px 2px 199px;
+    }
+
+.phone1btnsquare {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border-color: #bababa;
+    background-color: #bababa;
+    position: absolute;
+    margin: 12px 0px 2px 13px;
+}
+
+
+.phone1btInsquare {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    border-color: #fafafa;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 14px 0px 2px 15px;
+}
+
+
+
+.phone2btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 260px 0px 0px 434px;
+    }
+
+.phone2btnsquare {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border-color: #bababa;
+    background-color: #bababa;
+    position: absolute;
+    margin: 13px 0px 2px 12px;
+}
+
+
+.phone2btInsquare {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    border-color: #fafafa;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 15px 0px 2px 14px;
+}
+
 .phone2bcg {
     width: 458px;
     height: 215px;
@@ -86,7 +157,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('fonts/LatoRegular/LatoRegular.ttf') format('truetype');
+    src: url('/assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     }
