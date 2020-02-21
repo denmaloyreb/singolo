@@ -2,7 +2,7 @@
     width: 1020px;
     height: 100vh;
     background-color: red;
-    
+    margin:0 auto;
 }
 
 .head {
@@ -19,7 +19,7 @@
     /*font-weight: 700;*/
     text-align: left;
     display: flex;
-    margin: 42px 247px 0 41px;
+    margin: 42px 247px 0 40px;
 }
 
 .logo p {
@@ -34,13 +34,13 @@
     font-family: "Lato";
     /*font-weight: 700;*/
     text-align: left;
-    margin: 47px 40px 21px -19px;
+    margin: 44px 40px 25px -30px;
 }
 
 .navbar ul li {
     text-transform: uppercase;
     font-size: 9pt;
-    margin-left: 23px;
+    margin-left: 25px;
     
 }
 
@@ -54,6 +54,18 @@
     font-size: 19px;
     font-family: Lato, sans-serif;
     color: #494e62;
+    }
+
+.navbar ul li:nth-child(1):before {
+    content: "";
+    position: relative;
+    bottom: 3px;
+    left: -13px;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+    color: #494e62;
+        
     }
 
 .navbar ul {
@@ -112,7 +124,41 @@
     margin: 14px 0px 2px 15px;
 }
 
+.phone1speak {
+    width: 36px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #acacac;
+    position: absolute;
+    margin: 89px 2px 4px 202px;
+}
 
+.phone1speakcyrcle {
+    width: 9px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    position: absolute;
+    margin: 70px 2px 4px 214px;
+}
+
+.phone1reddot{
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #eb5055;
+    margin: 72px 2px 4px 217px;
+    z-index: 1;
+}
+
+.phone2bcg {
+    width: 458px;
+    height: 215px;
+    border-radius: 27px;
+    background-color: #f2f2f2;
+    position: absolute;
+    margin: 174px -76px -78px 424px
+}
 
 .phone2btn {
     width: 42px;
@@ -121,7 +167,7 @@
     background-color: #fafafa;
     position: absolute;
     margin: 260px 0px 0px 434px;
-    }
+}
 
 .phone2btnsquare {
     width: 16px;
@@ -144,13 +190,34 @@
     margin: 15px 0px 2px 14px;
 }
 
-.phone2bcg {
-    width: 458px;
-    height: 215px;
-    border-radius: 27px;
-    background-color: #f2f2f2;
-    margin: 173px 0px 2px 424px;
+.phone2speak {
+    width: 5px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #acacac;
+    position: absolute;
+    margin: 264px 2px 4px 841px;
 }
+
+.phone2speakcyrcle {
+    width: 9px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    position: absolute;
+    margin: 277px 2px 4px 857px;
+}
+
+.phone2reddot{
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #eb5055;
+    margin: 279px 2px 4px 636px;
+    z-index: 1;
+}
+
+
 
 .slider_btm {
     height: 15px;
