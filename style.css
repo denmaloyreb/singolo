@@ -24,7 +24,12 @@
 
 .logo p {
     text-transform: uppercase;
-    font-size: 18pt;
+    font-size: 19pt;
+    letter-spacing: -0.9px;
+}
+
+.logo p:nth-child(2) {
+    color: #f06c64;
 }
 /*styles for navbar*/
 .navbar {
@@ -149,7 +154,7 @@
     border-radius: 4px;
     background-color: #d8d8d8;
     position: absolute;
-    margin: 70px 2px 4px 214px;
+    margin: 70px 0 0 215px;
 }
 
 .phone1reddot{
@@ -158,6 +163,7 @@
     border-radius: 2px;
     background-color: #eb5055;
     margin: 72px 2px 4px 217px;
+    position: absolute;
     z-index: 1;
 }
 
@@ -235,7 +241,8 @@
     height: 4px;
     border-radius: 2px;
     background-color: #eb5055;
-    margin: 279px 2px 4px 637px;
+    margin: 279px 2px 4px 860px;
+    position: absolute;
     z-index: 1;
 }
 
@@ -451,8 +458,24 @@ h1 {
 /*styles for  backgroung bottom*/
 .bg_btm {
     width: 1020px;
-    height: 24px;
+    height: 6px;
     background-color: #ffffff;
+}
+
+button {
+    width: 38px;
+    height: 48px;
+    border: none;
+}
+
+.leftbtn {
+    margin: 267px 0px 0 32px;
+    position: absolute;
+}
+
+.rightbtn {
+    margin: 267px 0px 0 951px;
+    position: absolute;
 }
 
 @font-face {
