@@ -1,17 +1,18 @@
+/*styles for main container*/
 .container {
     width: 1020px;
     height: 100vh;
     background-color: red;
     margin:0 auto;
 }
-
+/*styles for main heeder*/
 .head {
     height: 89px;
     background-color: #2d303a;
     display: flex;
     justify-content: space-between;
 }
-
+/*styles for logo*/
 .logo {
     line-height: 6px;
     color: #ffffff;
@@ -25,7 +26,7 @@
     text-transform: uppercase;
     font-size: 18pt;
 }
-
+/*styles for navbar*/
 .navbar {
     font-size: 16px;
     line-height: 6px;
@@ -71,19 +72,19 @@
     display: flex;
     justify-content: space-between;
 }
-
+/*styles for hed bottom*/
 .head_btm {
     height: 6px;
     background-color: #323746;
     margin-bottom: 0; 
 }
-
+/*styles for slider - area with telephones*/
 .slider {
     height: 594px;
     background-color: #f06c64;
     display: flex;
 }
-
+/*styles for horizontal phone*/
 .phone1bcg {
     width: 215px;
     height: 458px;
@@ -97,7 +98,6 @@
     position: absolute;
     margin: 53px 0px 2px 112px;
 }
-
 
 .phone1pict {
     position: absolute;
@@ -161,6 +161,7 @@
     z-index: 1;
 }
 
+/*styles for vertical phone*/
 .phone2bcg {
     width: 458px;
     height: 215px;
@@ -239,17 +240,19 @@
 }
 
 
-
+/*styles for slider bottom*/
 .slider_btm {
     height: 6px;
     background-color: #ea676b;
 }
 
+/*styles for area with servises descriptions*/
 .services {
     height: 495px;
     background-color: #f2f2f2;
 }
 
+/*styles for h1 servises & description*/
 .h1prew {
     height: 200px;
     background-color: f2f2f2;
@@ -284,6 +287,7 @@ h1 {
     letter-spacing: 0.15px;*/
 }
 
+/*styles for servislist*/
 .servlist {
     height: 294px;
     background-color: #f2f2f2;
@@ -320,8 +324,11 @@ h1 {
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
-    text-align: justify;
+    /*text-align: justify;*/
 }
+
+/*styles for elements servislist numeration from left to the right*/
+/*styles for  servislist logos*/
 .servlist1logo {
     position: absolute;
     margin: 15px 0 0 35px;
@@ -332,11 +339,26 @@ h1 {
     margin: 11px 0 0 355px;
 }
 
+.servlist3logo {
+    position: absolute;
+    margin: 15px 0 0 677px;
+}
+
 .servlist4logo {
     position: absolute;
     margin: 135px 0 0 37px;
 }
 
+.servlist5logo {
+    position: absolute;
+    margin: 136px 0 0 359px;
+}
+
+.servlist6logo {
+    position: absolute;
+    margin: 138px 0 0 677px;
+}
+/*styles for  servislist h2*/
 .servlist1h2 {
     position: absolute;
     margin: 17px 0 0 121px;
@@ -351,19 +373,91 @@ h1 {
     word-spacing: -1.2px;
 }
 
+.servlist3h2 {
+    position: absolute;
+    margin: 18px 0 0 761px;
+    width: max-content;
+    letter-spacing: 0.4px;
+    word-spacing: -1.2px;
+}
+
+.servlist4h2 {
+    position: absolute;
+    margin: 141px 0 0 121px;
+    width: max-content;
+    letter-spacing: 0.25px;
+    word-spacing: -1.2px;
+}
+
+.servlist5h2 {
+    position: absolute;
+    margin: 140px 0 0 440px;
+    width: max-content;
+    letter-spacing: 0.5px;
+    word-spacing: -3.2px;
+}
+
+.servlist6h2 {
+    position: absolute;
+    margin: 141px 0 0 761px;
+    width: max-content;
+    letter-spacing: 0.5px;
+    word-spacing: -1.2px;
+}
+/*styles for  servislist descriptions*/
 .servlist1descr {
     position: absolute;
     margin: 46px 0 0 121px;
+    text-align: justify;
 }
 
 .servlist2descr {
     position: absolute;
-    margin: 46px 0 0 442px;
+    margin: 46px 0 0 440px;
+    word-break: break-all;
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+.servlist3descr {
+    position: absolute;
+    margin: 46px 0 0 760px;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.servlist4descr {
+    position: absolute;
+    margin: 169px 0 0 121px;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.servlist5descr {
+    position: absolute;
+    margin: 168px 0 0 440px;
+    word-break: break-all;
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+.servlist6descr {
+    position: absolute;
+    margin: 169px 0 0 760px;
+    word-break: break-all;
+    text-align: justify;
+}
+
+/*styles for  backgroung bottom*/
+.bg_btm {
+    width: 1020px;
+    height: 24px;
+    background-color: #ffffff;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('/assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
+    src: url('assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     }
