@@ -24,12 +24,15 @@
 
 .logo p {
     text-transform: uppercase;
-    font-size: 19pt;
-    letter-spacing: -0.9px;
+    font-size: 18pt;
 }
 
 .logo p:nth-child(2) {
-    color: #f06c64;
+    color:#f06c64;
+}
+
+.hh1 h1 {
+    color: #2d303a;
 }
 /*styles for navbar*/
 .navbar {
