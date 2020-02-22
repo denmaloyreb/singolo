@@ -31,6 +31,11 @@
     color:#f06c64;
 }
 
+.navbar ul li:nth-child(1) {
+    color:#f06c64;
+} 
+
+
 .hh1 h1 {
     color: #2d303a;
 }
@@ -52,6 +57,22 @@
     
 }
 
+
+
+.navbar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.navbar ul li:nth-child(1) a{
+    color:#f06c64;
+} 
+
+.navbar ul li a:hover {
+    color: green;
+    
+}
 
 .navbar ul li:before {
     content: ".";
@@ -279,10 +300,12 @@ h1 {
 
 .serviseh1 {
     position: absolute;
-    margin: 67px 247px 0 42px;
+    margin: 68px 247px 0 40px;
+    letter-spacing: 0.29px;
+    word-spacing: 1.3px;
 }
 
-.servtext{
+.servtext p{
     width: 943px;
     height: 60px;
     font-size: 17px;
@@ -326,6 +349,7 @@ h1 {
     text-align: left;
 }
 
+
 .servlist p {
     width: 219px;
     height: 128px;
@@ -334,7 +358,7 @@ h1 {
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
-    /*text-align: justify;*/
+    
 }
 
 /*styles for elements servislist numeration from left to the right*/
@@ -456,6 +480,7 @@ h1 {
     margin: 169px 0 0 760px;
     word-break: break-all;
     text-align: justify;
+    letter-spacing: 0.4px;
 }
 
 /*styles for  backgroung bottom*/
@@ -469,6 +494,10 @@ button {
     width: 38px;
     height: 48px;
     border: none;
+}
+
+button:hover {
+    border: 3px solid black;
 }
 
 .leftbtn {
