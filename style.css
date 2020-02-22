@@ -266,7 +266,7 @@ h1 {
 
 .serviseh1 {
     position: absolute;
-    margin: 66px 247px 0 43px;
+    margin: 67px 247px 0 42px;
 }
 
 .servtext{
@@ -277,16 +277,16 @@ h1 {
     color: #767e9e;
     font-family: "Lato";
     font-weight: 100;
-    text-align: left;
+    text-align: justify;
     position: absolute;
-    margin: 111px 247px 0 41px;
-    word-spacing: 0.8px;
-    letter-spacing: 0.15px;
+    margin: 112px 247px 0 41px;
+    /*word-spacing: 0.9px;
+    letter-spacing: 0.15px;*/
 }
 
 .servlist {
     height: 294px;
-    background-color: blue;
+    background-color: #f2f2f2;
     display: flex;
 }
 
@@ -298,14 +298,67 @@ h1 {
 }
 
 .servlist div {
-    border: 0.1px solid gray;
+    border: none;
     height: 130px;
     position: absolute;
 }
 
+.servlist h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.servlist p {
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+}
 .servlist1logo {
     position: absolute;
-    margin: 15px 0 0 34px;
+    margin: 15px 0 0 35px;
+}
+
+.servlist2logo {
+    position: absolute;
+    margin: 11px 0 0 355px;
+}
+
+.servlist4logo {
+    position: absolute;
+    margin: 135px 0 0 37px;
+}
+
+.servlist1h2 {
+    position: absolute;
+    margin: 17px 0 0 121px;
+    width: max-content;
+}
+
+.servlist2h2 {
+    position: absolute;
+    margin: 18px 0 0 440px;
+    width: max-content;
+    letter-spacing: 0.5px;
+    word-spacing: -1.2px;
+}
+
+.servlist1descr {
+    position: absolute;
+    margin: 46px 0 0 121px;
+}
+
+.servlist2descr {
+    position: absolute;
+    margin: 46px 0 0 442px;
 }
 
 @font-face {
