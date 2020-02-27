@@ -1,0 +1,63 @@
+.container {
+    width: 1020px;
+    height: 100vh;
+    /*background-color: #2d303a;*/
+    margin:0 auto;
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    max-width: 941px;
+    margin: 68px 41px;
+
+}
+
+.portfolio {
+    background-color: #2d303a;
+    height: 870px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.portfolio-text {
+    width: 943px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 100;
+    text-align: justify;
+    position: absolute;
+    margin: 28px 0px;
+}
+
+.tags {
+    position: relative;
+    margin: 68px 0;
+    word-spacing: 5.5px;
+}
+
+button {
+    height: 22px;
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+    color: #666d89;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
