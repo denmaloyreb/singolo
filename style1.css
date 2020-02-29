@@ -18,6 +18,7 @@
     color: #ffffff;
     font-family: "Lato";
     text-align: left;
+    font-weight: 900;
     display: flex;
     margin: 41px 247px 0 41px;
 }
@@ -47,7 +48,7 @@
     font-family: "Lato";
     /*font-weight: 700;*/
     text-align: left;
-    margin: 44px 39px 20px -60px;
+    margin: 44px 42px 20px -60px;
 }
 
 .navbar ul li {
@@ -513,6 +514,7 @@ button:hover {
 @font-face {
     font-family: 'Lato';
     src: url('assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
+    src: url('assets/fonts/LatoLight/LatoLight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+}

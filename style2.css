@@ -1,5 +1,5 @@
 .container {
-    width: 1020px;
+    max-width: 1020px;
     height: 100vh;
     /*background-color: #2d303a;*/
     margin:0 auto;
@@ -10,6 +10,7 @@
     position: absolute;
     max-width: 941px;
     margin: 68px 41px;
+    display: flex;
 
 }
 
@@ -18,13 +19,15 @@
     height: 870px;
 }
 
-h2 {
+.h2_portfolio {
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
+    letter-spacing: 0px;
+    margin: 1px 10px 10px -1px;
 }
 
 .portfolio-text {
@@ -34,16 +37,21 @@ h2 {
     line-height: 31px;
     color: #767e9e;
     font-family: "Lato";
-    font-weight: 100;
+    font-weight: lighter;
     text-align: justify;
     position: absolute;
-    margin: 28px 0px;
+    margin: 46px 10px 10px -1px;
+    word-spacing: 2px;
+    letter-spacing: 0.1px;
+    
 }
 
 .tags {
-    position: relative;
+    
     margin: 68px 0;
     word-spacing: 5.5px;
+    margin: 87px -132px;
+    word-spacing: 4.7px;
 }
 
 button {
@@ -58,6 +66,9 @@ button {
 @font-face {
     font-family: 'Lato';
     src: url('assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    src: url('assets/fonts/LatoBold/LatoBold.ttf') format('truetype');
+    src: url('assets/fonts/Lato-Light.ttf') format('truetype');
+    src: url('assets/fonts/Lato-Black.ttf') format('truetype');
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
     }
