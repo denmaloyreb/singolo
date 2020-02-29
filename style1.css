@@ -18,7 +18,7 @@
     color: #ffffff;
     font-family: "Lato";
     text-align: left;
-    font-weight: 900;
+    font-weight: 300;
     display: flex;
     margin: 41px 247px 0 41px;
 }
@@ -46,9 +46,10 @@
     line-height: 6px;
     color: #ffffff;
     font-family: "Lato";
-    /*font-weight: 700;*/
+    font-weight: 700;
     text-align: left;
-    margin: 44px 42px 20px -60px;
+    margin: 44px 39px 20px -60px;
+    letter-spacing: -0.1px;
 }
 
 .navbar ul li {
@@ -290,20 +291,20 @@
     background-color: #f2f2f2;
 }
 
-h2 {
+.serviseh1 h2 {
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
+    
 }
 
 .serviseh1 {
     position: absolute;
     margin: 68px 247px 0 40px;
-    letter-spacing: 0.29px;
-    word-spacing: 1.3px;
+    
 }
 
 .servtext p{
@@ -316,9 +317,9 @@ h2 {
     font-weight: 100;
     text-align: justify;
     position: absolute;
-    margin: 112px 247px 0 41px;
-    /*word-spacing: 0.9px;
-    letter-spacing: 0.15px;*/
+    margin: 113px 247px 0 41px;
+    letter-spacing: 0.25px;
+    word-spacing: 1px;
 }
 
 /*styles for servislist*/
@@ -358,7 +359,7 @@ h2 {
     line-height: 22px;
     color: #767e9e;
     font-family: "Lato";
-    font-weight: 400;
+    font-weight: 300;
     
 }
 
@@ -396,7 +397,7 @@ h2 {
 /*styles for  servislist h2*/
 .servlist1h2 {
     position: absolute;
-    margin: 17px 0 0 121px;
+    margin: 18px 0 0 121px;
     width: max-content;
 }
 
@@ -404,40 +405,35 @@ h2 {
     position: absolute;
     margin: 18px 0 0 440px;
     width: max-content;
-    letter-spacing: 0.5px;
-    word-spacing: -1.2px;
+    
 }
 
 .servlist3h2 {
     position: absolute;
     margin: 18px 0 0 761px;
     width: max-content;
-    letter-spacing: 0.4px;
-    word-spacing: -1.2px;
+    
 }
 
 .servlist4h2 {
     position: absolute;
     margin: 141px 0 0 121px;
     width: max-content;
-    letter-spacing: 0.25px;
-    word-spacing: -1.2px;
+    
 }
 
 .servlist5h2 {
     position: absolute;
-    margin: 140px 0 0 440px;
+    margin: 141px 0 0 440px;
     width: max-content;
-    letter-spacing: 0.5px;
-    word-spacing: -3.2px;
+    
 }
 
 .servlist6h2 {
     position: absolute;
     margin: 141px 0 0 761px;
     width: max-content;
-    letter-spacing: 0.5px;
-    word-spacing: -1.2px;
+    
 }
 /*styles for  servislist descriptions*/
 .servlist1descr {
@@ -452,6 +448,7 @@ h2 {
     word-break: break-all;
     text-align: justify;
     word-spacing: 1px;
+    letter-spacing: 0.1px;
 }
 
 .servlist3descr {
@@ -514,7 +511,9 @@ button:hover {
 @font-face {
     font-family: 'Lato';
     src: url('assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
-    src: url('assets/fonts/LatoLight/LatoLight.ttf') format('truetype');
+    src: url('assets/fonts/LatoBold/LatoBold.ttf') format('truetype');
+    src: url('assets/fonts/Lato-Light.ttf') format('truetype');
+    src: url('assets/fonts/Lato-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+    }
