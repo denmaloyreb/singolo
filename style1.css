@@ -46,10 +46,9 @@
     line-height: 6px;
     color: #ffffff;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 300;
     text-align: left;
-    margin: 44px 39px 20px -60px;
-    letter-spacing: -0.1px;
+    margin: 43px 42px 20px -60px;
 }
 
 .navbar ul li {
@@ -81,7 +80,7 @@
     position: relative;
     bottom: 3px;
     left: -13px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 19px;
     font-family: Lato, sans-serif;
     color: #494e62;
@@ -92,7 +91,7 @@
     position: relative;
     bottom: 3px;
     left: -13px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 19px;
     font-family: Lato, sans-serif;
     color: #494e62;
@@ -330,17 +329,13 @@
 }
 
 .servlist div {
-    border: 1px solid red;
-    flex-grow: 1;
-    position: absolute;
-    
-}
-
-.servlist div {
     border: none;
     height: 130px;
     position: absolute;
+    flex-grow: 1;
+       
 }
+
 
 .servlist h2 {
     font-size: 18px;

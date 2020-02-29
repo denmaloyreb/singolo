@@ -16,7 +16,7 @@
 
 .portfolio {
     background-color: #2d303a;
-    height: 870px;
+    height: 864px;
 }
 
 .h2_portfolio {
@@ -61,6 +61,105 @@ button {
     border: 1px solid #666d89;
     color: #666d89;
 }
+
+.layout-4-column {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+    margin: 111px -21px;
+}
+
+.column {
+    border: burlywood;
+    margin-left: 20px;
+}
+
+.column div {
+    margin-top: 17px;
+}
+
+.portfolio-bottom {
+    height: 6px;
+    background-color: #323746;
+}
+.aboutus {
+    height: 728px;
+    background-color: #f2f2f2;
+}
+
+.aboutus-h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.2px;
+}
+
+.aboutus-h2-description {
+    width: 943px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: lighter;
+    text-align: justify;
+    position: absolute;
+    word-spacing: 0.8px;
+    letter-spacing: 0.3px;
+    margin: 44px 0;
+}
+
+.layout-3-column {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+    margin: 133px -18px;
+}
+
+.l3-column {
+    margin-left: 18px;
+    position: relative;
+}
+
+.l3-column div {
+    margin-top: 17px;
+}
+
+.l3-column h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    margin: -6px -2px;
+}
+
+.l3-column p {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 10px -2px;
+}
+
+.social-buttons  {
+    display: flex;
+    justify-content: left;
+    margin: -128px -7px;
+}
+
+.social-buttons  div {
+    margin: -128px 4px -2px 2px;
+}
+
 
 
 @font-face {
