@@ -54,12 +54,22 @@
     word-spacing: 4.7px;
 }
 
-button {
+.tags-button {
     height: 22px;
     border-radius: 5px;
     background-color: #2d303a;
     border: 1px solid #666d89;
     color: #666d89;
+}
+
+.tags button:nth-child(1) {
+    color: #dedede;
+    border-color: #dedede;
+} 
+
+.tags button:hover {
+    border: 3px solid black;
+    background-color: #4CAF50;
 }
 
 .layout-4-column {
@@ -156,11 +166,19 @@ button {
     margin: -128px -7px;
 }
 
+.social-buttons  div:hover {
+    transform: scale(1.2);
+} 
+
 .social-buttons  div {
     margin: -128px 4px -2px 2px;
 }
 
-
+.aboutus-bottom {
+    max-width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
 
 @font-face {
     font-family: 'Lato';
