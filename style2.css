@@ -69,7 +69,8 @@
 
 .tags button:hover {
     border: 3px solid black;
-    background-color: #4CAF50;
+    background-color:white;
+    transform: scale(1.2);
 }
 
 .layout-4-column {
