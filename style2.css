@@ -78,11 +78,14 @@
     display: flex; 
     justify-content: space-between;
     margin: 111px -21px;
+    
 }
 
 .column {
     border: burlywood;
     margin-left: 20px;
+    max-height: 620px;
+    overflow: hidden;
 }
 
 .column div {
