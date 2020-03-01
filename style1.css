@@ -270,6 +270,27 @@
     position: absolute;
     z-index: 1;
 }
+/*Styles for slider's buttons*/
+.leftbtn {
+    margin: 267px 0px 0 32px;
+    position: absolute;
+}
+
+.rightbtn {
+    margin: 267px 0px 0 951px;
+    position: absolute;
+}
+.slider button {
+    width: 38px;
+    height: 48px;
+    border: none;
+}
+
+.slider button:hover {
+    border: 3px solid black;
+}
+
+
 
 
 /*styles for slider bottom*/
@@ -483,25 +504,7 @@
     background-color: #ffffff;
 }
 
-button {
-    width: 38px;
-    height: 48px;
-    border: none;
-}
 
-button:hover {
-    border: 3px solid black;
-}
-
-.leftbtn {
-    margin: 267px 0px 0 32px;
-    position: absolute;
-}
-
-.rightbtn {
-    margin: 267px 0px 0 951px;
-    position: absolute;
-}
 
 @font-face {
     font-family: 'Lato';
