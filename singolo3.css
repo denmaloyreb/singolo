@@ -14,6 +14,11 @@
 
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contact {
     height: 648px;
     background-color: #f06c64;
@@ -85,18 +90,35 @@
     background-color: #d6564f;
 }
 
+
+
 .copyright {
     width: 943px;
     height: 60px;
     font-size: 11px;
-    line-height: 31px;
     color: #666d89;
     font-family: "Lato";
     font-weight: lighter;
     text-align: justify;
-    position: absolute;
-    margin: 46px 10px 10px -1px;
     word-spacing: 2px;
     letter-spacing: 0.1px;
+    margin-left: 42px;
+    margin-top: 32px;
     
 }
+
+.footer-social-buttons {
+    display: flex;
+    justify-content: left;
+    margin-right: 35px;
+    margin-top: 17px;
+}
+
+.footer-social-buttons div {
+    flex: 1 1 auto;
+    margin: 2px;
+}
+
+.footer-social-buttons  div:hover {
+    transform: scale(1.2);
+} 
