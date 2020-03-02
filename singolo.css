@@ -504,6 +504,10 @@
     background-color: #ffffff;
 }
 
+.par1bottom {
+    height: 5px;
+}
+
 .container {
     width: 1020px;
     height: 100vh;
@@ -583,7 +587,7 @@
     position: absolute;
     display: flex; 
     justify-content: space-between;
-    margin: 111px -21px;
+    margin: 110px -21px;
     
 }
 
