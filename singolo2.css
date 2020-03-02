@@ -1,5 +1,5 @@
 .container {
-    max-width: 1020px;
+    width: 1020px;
     height: 100vh;
     /*background-color: #2d303a;*/
     margin:0 auto;
@@ -8,7 +8,7 @@
 
 .wrapper {
     position: absolute;
-    max-width: 941px;
+    width: 941px;
     margin: 68px 41px;
     display: flex;
 
@@ -179,7 +179,7 @@
 }
 
 .aboutus-bottom {
-    max-width: 1020px;
+    width: 1020px;
     height: 6px;
     background-color: #ffffff;
 }

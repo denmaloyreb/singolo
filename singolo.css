@@ -1,0 +1,703 @@
+/*styles for main container*/
+.container {
+    width: 1020px;
+    height: 100vh;
+    background-color: red;
+    margin:0 auto;
+}
+/*styles for main header*/
+.head {
+    height: 89px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+/*styles for logo*/
+.logo {
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    text-align: left;
+    font-weight: 300;
+    display: flex;
+    margin: 41px 247px 0 41px;
+}
+
+.logo p {
+    text-transform: uppercase;
+    font-size: 18pt;
+}
+
+.logo p:nth-child(2) {
+    color:#f06c64;
+}
+
+.navbar ul li:nth-child(1) {
+    color:#f06c64;
+} 
+
+
+.hh1 h1 {
+    color: #2d303a;
+}
+/*styles for navbar*/
+.navbar {
+    font-size: 16px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 43px 42px 20px -60px;
+}
+
+.navbar ul li {
+    text-transform: uppercase;
+    font-size: 9pt;
+    margin-left: 25px;
+    
+}
+
+
+
+.navbar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.navbar ul li:nth-child(1) a{
+    color:#f06c64;
+} 
+
+.navbar ul li a:hover {
+    color: green;
+    
+}
+
+.navbar ul li:before {
+    content: ".";
+    position: relative;
+    bottom: 3px;
+    left: -13px;
+    font-weight: 300;
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+    color: #494e62;
+    }
+
+.navbar ul li:nth-child(1):before {
+    content: "";
+    position: relative;
+    bottom: 3px;
+    left: -13px;
+    font-weight: 300;
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+    color: #494e62;
+        
+    }
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+/*styles for hed bottom*/
+.head_btm {
+    height: 6px;
+    background-color: #323746;
+    margin-bottom: 0; 
+}
+/*styles for slider - area with telephones*/
+.slider {
+    height: 594px;
+    background-color: #f06c64;
+    display: flex;
+}
+/*styles for horizontal phone*/
+.phone1bcg {
+    width: 215px;
+    height: 458px;
+    border-radius: 27px;
+    background-color: #f2f2f2;
+    position: absolute;
+    margin: 53px 0px 2px 112px;
+}
+
+.phone1shadow {
+    position: absolute;
+    margin: 53px 0px 2px 112px;
+}
+
+.phone1pict {
+    position: absolute;
+    margin: 57px 0px 0px 8px;
+}
+
+.phone1btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 462px 0px 2px 199px;
+    }
+
+.phone1btnsquare {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border-color: #bababa;
+    background-color: #bababa;
+    position: absolute;
+    margin: 12px 0px 2px 13px;
+}
+
+
+.phone1btInsquare {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    border-color: #fafafa;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 14px 0px 2px 15px;
+}
+
+.phone1speak {
+    width: 36px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #acacac;
+    position: absolute;
+    margin: 89px 2px 4px 202px;
+}
+
+.phone1speakcyrcle {
+    width: 9px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    position: absolute;
+    margin: 70px 0 0 215px;
+}
+
+.phone1reddot{
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #eb5055;
+    margin: 72px 2px 4px 217px;
+    position: absolute;
+    z-index: 1;
+}
+
+/*styles for vertical phone*/
+.phone2bcg {
+    width: 458px;
+    height: 215px;
+    border-radius: 27px;
+    background-color: #f2f2f2;
+    position: absolute;
+    margin: 174px -76px -78px 425px
+    
+}
+
+.phone2shadow {
+    position: absolute;
+    margin: 174px 0px 0px 426px;
+}
+
+.phone2pict {
+    position: absolute;
+    margin: 6px 0px 0px 52px;
+}
+
+.phone2btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 260px 0px 0px 434px;
+}
+
+.phone2btnsquare {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border-color: #bababa;
+    background-color: #bababa;
+    position: absolute;
+    margin: 13px 0px 2px 12px;
+}
+
+
+.phone2btInsquare {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    border-color: #fafafa;
+    background-color: #fafafa;
+    position: absolute;
+    margin: 15px 0px 2px 14px;
+}
+
+.phone2speak {
+    width: 5px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #acacac;
+    position: absolute;
+    margin: 264px 2px 4px 842px;
+}
+
+.phone2speakcyrcle {
+    width: 9px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    position: absolute;
+    margin: 277px 2px 4px 857px;
+}
+
+.phone2reddot{
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #eb5055;
+    margin: 279px 2px 4px 860px;
+    position: absolute;
+    z-index: 1;
+}
+/*Styles for slider's buttons*/
+.leftbtn {
+    margin: 267px 0px 0 32px;
+    position: absolute;
+}
+
+.rightbtn {
+    margin: 267px 0px 0 951px;
+    position: absolute;
+}
+.slider button {
+    width: 38px;
+    height: 48px;
+    border: none;
+}
+
+.slider button:hover {
+    border: 3px solid black;
+}
+
+
+
+
+/*styles for slider bottom*/
+.slider_btm {
+    height: 6px;
+    background-color: #ea676b;
+}
+
+/*styles for area with servises descriptions*/
+.services {
+    height: 495px;
+    background-color: #f2f2f2;
+}
+
+/*styles for h1 servises & description*/
+.h1prew {
+    height: 200px;
+    background-color: #f2f2f2;
+}
+
+.serviseh1 h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    
+}
+
+.serviseh1 {
+    position: absolute;
+    margin: 68px 247px 0 40px;
+    
+}
+
+.servtext p{
+    width: 943px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 100;
+    text-align: justify;
+    position: absolute;
+    margin: 113px 247px 0 41px;
+    letter-spacing: 0.25px;
+    word-spacing: 1px;
+}
+
+/*styles for servislist*/
+.servlist {
+    height: 294px;
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.servlist div {
+    border: none;
+    height: 130px;
+    position: absolute;
+    flex-grow: 1;
+       
+}
+
+
+.servlist h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+
+.servlist p {
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    
+}
+
+/*styles for elements servislist numeration from left to the right*/
+/*styles for  servislist logos*/
+.servlist1logo {
+    position: absolute;
+    margin: 15px 0 0 35px;
+}
+
+.servlist2logo {
+    position: absolute;
+    margin: 11px 0 0 355px;
+}
+
+.servlist3logo {
+    position: absolute;
+    margin: 15px 0 0 677px;
+}
+
+.servlist4logo {
+    position: absolute;
+    margin: 135px 0 0 37px;
+}
+
+.servlist5logo {
+    position: absolute;
+    margin: 136px 0 0 359px;
+}
+
+.servlist6logo {
+    position: absolute;
+    margin: 138px 0 0 677px;
+}
+/*styles for  servislist h2*/
+.servlist1h2 {
+    position: absolute;
+    margin: 18px 0 0 121px;
+    width: max-content;
+}
+
+.servlist2h2 {
+    position: absolute;
+    margin: 18px 0 0 440px;
+    width: max-content;
+    
+}
+
+.servlist3h2 {
+    position: absolute;
+    margin: 18px 0 0 761px;
+    width: max-content;
+    
+}
+
+.servlist4h2 {
+    position: absolute;
+    margin: 141px 0 0 121px;
+    width: max-content;
+    
+}
+
+.servlist5h2 {
+    position: absolute;
+    margin: 141px 0 0 440px;
+    width: max-content;
+    
+}
+
+.servlist6h2 {
+    position: absolute;
+    margin: 141px 0 0 761px;
+    width: max-content;
+    
+}
+/*styles for  servislist descriptions*/
+.servlist1descr {
+    position: absolute;
+    margin: 46px 0 0 121px;
+    text-align: justify;
+}
+
+.servlist2descr {
+    position: absolute;
+    margin: 46px 0 0 440px;
+    word-break: break-all;
+    text-align: justify;
+    word-spacing: 1px;
+    letter-spacing: 0.1px;
+}
+
+.servlist3descr {
+    position: absolute;
+    margin: 46px 0 0 760px;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.servlist4descr {
+    position: absolute;
+    margin: 169px 0 0 121px;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.servlist5descr {
+    position: absolute;
+    margin: 168px 0 0 440px;
+    word-break: break-all;
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+.servlist6descr {
+    position: absolute;
+    margin: 169px 0 0 760px;
+    word-break: break-all;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+
+/*styles for  backgroung bottom*/
+.bg_btm {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1020px;
+    height: 100vh;
+    /*background-color: #2d303a;*/
+    margin:0 auto;
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    width: 941px;
+    margin: 68px 41px;
+    display: flex;
+
+}
+
+.portfolio {
+    background-color: #2d303a;
+    height: 864px;
+}
+
+.h2_portfolio {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: 1px 10px 10px -1px;
+}
+
+.portfolio-text {
+    width: 943px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: lighter;
+    text-align: justify;
+    position: absolute;
+    margin: 46px 10px 10px -1px;
+    word-spacing: 2px;
+    letter-spacing: 0.1px;
+    
+}
+
+.tags {
+    
+    margin: 68px 0;
+    word-spacing: 5.5px;
+    margin: 87px -132px;
+    word-spacing: 4.7px;
+}
+
+.tags-button {
+    height: 22px;
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+    color: #666d89;
+}
+
+.tags button:nth-child(1) {
+    color: #dedede;
+    border-color: #dedede;
+} 
+
+.tags button:hover {
+    border: 3px solid black;
+    background-color:white;
+    transform: scale(1.2);
+}
+
+.layout-4-column {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+    margin: 111px -21px;
+    
+}
+
+.column {
+    border: burlywood;
+    margin-left: 20px;
+    max-height: 620px;
+    overflow: hidden;
+}
+
+.column div {
+    margin-top: 17px;
+}
+
+.portfolio-bottom {
+    height: 6px;
+    background-color: #323746;
+}
+.aboutus {
+    height: 728px;
+    background-color: #f2f2f2;
+}
+
+.aboutus-h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.2px;
+}
+
+.aboutus-h2-description {
+    width: 943px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: lighter;
+    text-align: justify;
+    position: absolute;
+    word-spacing: 0.8px;
+    letter-spacing: 0.3px;
+    margin: 44px 0;
+}
+
+.layout-3-column {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+    margin: 133px -18px;
+}
+
+.l3-column {
+    margin-left: 18px;
+    position: relative;
+}
+
+.l3-column div {
+    margin-top: 17px;
+}
+
+.l3-column h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    margin: -6px -2px;
+}
+
+.l3-column p {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 10px -2px;
+}
+
+.social-buttons  {
+    display: flex;
+    justify-content: left;
+    margin: -128px -7px;
+}
+
+.social-buttons  div:hover {
+    transform: scale(1.2);
+} 
+
+.social-buttons  div {
+    margin: -128px 4px -2px 2px;
+}
+
+.aboutus-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('assets/fonts/LatoRegular/LatoRegular.ttf') format('truetype');
+    src: url('assets/fonts/LatoBold/LatoBold.ttf') format('truetype');
+    src: url('assets/fonts/Lato-Light.ttf') format('truetype');
+    src: url('assets/fonts/Lato-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
