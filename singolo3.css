@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('assets/fonts/Lato-Black.ttf');
+    src: url('assets/fonts/Lato-Bold.ttf');
+    src: url('assets/fonts/Lato-Light.ttf');
+    src: url('assets/fonts/Lato-Regular.ttf');
+    
+}
 .container {
     width: 1020px;
     height: 100vh;
@@ -83,11 +91,41 @@
 }
 
 .contact-form textarea {
-    width: 617px;
-    height: 202px;
+    width: 615px;
+    height: 201px;
     border-radius: 5px;
     border: none;
     background-color: #d6564f;
+}
+
+.contact-form input {
+    margin-bottom: 15px;
+}
+
+.h3-contact-info {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: 1px 10px 10px -1px;
+}
+
+.contact-text-col {
+    font-size: 12px;
+    line-height: 21px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-top: 11px;
+}
+
+.contact-text-col, .h3-contact-info {
+    margin-left: 19px;
 }
 
 
@@ -119,6 +157,8 @@
     margin: 2px;
 }
 
+
 .footer-social-buttons  div:hover {
     transform: scale(1.2);
 } 
+
