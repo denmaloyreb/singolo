@@ -694,6 +694,159 @@
     background-color: #ffffff;
 }
 
+/*get aquote part*/
+.wrapper {
+    position: absolute;
+    width: 941px;
+    margin: 68px 41px;
+    display: flex;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    height: 647px;
+    background-color: #f06c64;
+}
+
+
+.contact-bottom {
+    height: 6px;
+    background-color: #ea676b;
+}
+
+.footer {
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.h2_contact {
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: 0px 10px 10px -1px;
+}
+
+.contact-text {
+    width: 943px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: lighter;
+    text-align: justify;
+    position: absolute;
+    margin: 44px 10px 10px -1px;
+    word-spacing: 2px;
+    letter-spacing: 0.1px;
+    
+}
+
+.layout-2-column {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px -196px;
+}
+
+
+
+.contact-text-col {
+    width: 300px;
+}
+
+.contact-form input {
+    width: 617px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d6564f;
+    margin-bottom: -3px;
+}
+
+.contact-form textarea {
+    width: 615px;
+    height: 201px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d6564f;
+}
+
+.h3-contact-info {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: 1px 10px 10px -1px;
+}
+
+.contact-text-col {
+    font-size: 12px;
+    line-height: 21px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-top: 11px;
+}
+
+
+
+.adress {
+    margin-top: 19px;
+    line-height: 10px;
+}
+
+.adress p {
+    word-spacing: 5px;
+    margin-left: 0px;
+    font-size: 11px;
+}
+
+.copyright {
+    width: 943px;
+    height: 60px;
+    font-size: 11px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: lighter;
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing: 0.1px;
+    margin-left: 42px;
+    margin-top: 32px;
+    
+}
+
+.footer-social-buttons {
+    display: flex;
+    justify-content: left;
+    margin-right: 35px;
+    margin-top: 17px;
+}
+
+.footer-social-buttons div {
+    flex: 1 1 auto;
+    margin: 2px;
+}
+
+
+.footer-social-buttons  div:hover {
+    transform: scale(1.2);
+} 
+
 
 
 @font-face {

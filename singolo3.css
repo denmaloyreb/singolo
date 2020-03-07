@@ -28,7 +28,7 @@
 }
 
 .contact {
-    height: 648px;
+    height: 653px;
     background-color: #f06c64;
 }
 
@@ -51,7 +51,7 @@
     font-weight: 900;
     text-align: left;
     letter-spacing: 0px;
-    margin: 1px 10px 10px -1px;
+    margin: 4px 10px 10px -1px;
 }
 
 .contact-text {
@@ -64,7 +64,7 @@
     font-weight: lighter;
     text-align: justify;
     position: absolute;
-    margin: 46px 10px 10px -1px;
+    margin: 49px 10px 10px -1px;
     word-spacing: 2px;
     letter-spacing: 0.1px;
     
@@ -73,7 +73,7 @@
 .layout-2-column {
     display: flex;
     justify-content: space-between;
-    margin: 147px -174px;
+    margin: 153px -174px;
 }
 
 
@@ -128,7 +128,16 @@
     margin-left: 19px;
 }
 
+.adress {
+    margin-top: 19px;
+    line-height: 10px;
+}
 
+.adress p {
+    word-spacing: 5px;
+    margin-left: 0px;
+    font-size: 11px;
+}
 
 .copyright {
     width: 943px;
@@ -159,6 +168,6 @@
 
 
 .footer-social-buttons  div:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
 } 
 
